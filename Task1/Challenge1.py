@@ -1,0 +1,10 @@
+x = int(input("enter grade 1: "))
+y = int(input("enter grade 2: "))
+z = int(input("enter grade 3: "))
+k = int(input("enter grade 4: "))
+m = int(input("enter grade 5: "))
+test = [x, k, m, z , y]
+print(sum(test)/len(test))
+print(max(test))
+print(min(test))
+print(len([grade for grade in test if grade > 70]))
